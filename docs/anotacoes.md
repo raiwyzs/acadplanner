@@ -8,4 +8,5 @@
 * Rota de auth está implementada.
 
 ## Outros
-* Verificar a possibilidade de executar a aplicação e o banco de dados ser criado automaticamente, sem precisar abrir o Workbench e criar o schema manualmente.
+* Verificar a possibilidade de executar a aplicação e o banco de dados ser criado automaticamente, sem precisar abrir o Workbench e criar o schema manualmente. -> FEITO.
+* Dá para retirar a repetição de add e update livro (form) fazendo função para isso. Checar a possibilidade depois.

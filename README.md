@@ -21,7 +21,7 @@ python -m venv env
 ```cmd
 pip install -r requirements.txt
 ```
-* Inicialize o seu servidor MySQL, crie um banco de dados chamado "acadplanner".
+* Inicialize o seu servidor MySQL.
 > [!IMPORTANT]
 > Cheque as suas configurações no MySQL e, se precisar, troque a configuração no arquivo /src/config/config_database.py
 * Localizado no diretório `src`, execute o comando `python app.py`.

@@ -52,7 +52,7 @@ def login():
             if user and check_password_hash(user.password, password):
                 login_user(user)
                 flash('Login realizado com sucesso!', category='success')
-                return redirect(url_for('events.dashboard')) # ISSO PODE MUDAR POSTERIORMENTE. VERIFICAR O NOME DA ROTA.
+                return redirect(url_for('events.events')) # ISSO PODE MUDAR POSTERIORMENTE. VERIFICAR O NOME DA ROTA.
 
             else:
                 flash('Credenciais inválidas. Tente novamente.', category='error')
